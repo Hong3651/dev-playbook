@@ -31,6 +31,10 @@
 
 ## 완료
 
+- [x] base 프롬프트에 800줄 코드 파일 구조 점검 기준 추가
+  - 반영 파일: `prompts/base.md`
+  - 상태: 완료
+
 - [x] 프롬프트를 base/task/addon 조립형 구조로 전환
   - 반영 파일: `README.md`, `prompts/README.md`, `prompts/base.md`, `prompts/tasks/*.md`, `prompts/addons/*.md`
   - 상태: 완료
