@@ -31,6 +31,10 @@
 
 ## 완료
 
+- [x] 프롬프트를 base/task/addon 조립형 구조로 전환
+  - 반영 파일: `README.md`, `prompts/README.md`, `prompts/base.md`, `prompts/tasks/*.md`, `prompts/addons/*.md`
+  - 상태: 완료
+
 - [x] README 문체를 더 실무 메모처럼 줄일지 검토
   - 반영 파일: `README.md`
   - 상태: 완료
@@ -47,12 +51,12 @@
 
 
 - [x] 일반 프롬프트와 profile 세부 기준을 분리
-  - 반영 파일: `prompts/start_project.md`, `prompts/design_review.md`, `prompts/implement_feature.md`, `prompts/verify_code.md`, `prompts/summarize_changes.md`, `prompts/validate_playbook.md`
+  - 반영 파일: `prompts/tasks/start_project.md`, `prompts/tasks/design_review.md`, `prompts/tasks/implement_feature.md`, `prompts/tasks/verify_code.md`, `prompts/tasks/summarize_changes.md`, `prompts/tasks/validate_playbook.md`
   - 상태: 완료
 
 
-- [x] 프롬프트를 플레이북 문서에 의존하지 않는 독립 실행형으로 정리
-  - 반영 파일: `prompts/start_project.md`, `prompts/design_review.md`, `prompts/implement_feature.md`, `prompts/verify_code.md`, `prompts/summarize_changes.md`, `prompts/validate_playbook.md`
+- [x] 프롬프트가 플레이북 내부 문서에 과하게 의존하지 않도록 정리
+  - 반영 파일: `prompts/tasks/start_project.md`, `prompts/tasks/design_review.md`, `prompts/tasks/implement_feature.md`, `prompts/tasks/verify_code.md`, `prompts/tasks/summarize_changes.md`, `prompts/tasks/validate_playbook.md`
   - 상태: 완료
 
 
@@ -62,11 +66,11 @@
 
 
 - [x] 프롬프트별로 실제 필요한 문서 역할만 남기고 과한 구조 설명 제거
-  - 반영 파일: `prompts/start_project.md`, `prompts/design_review.md`, `prompts/implement_feature.md`, `prompts/verify_code.md`, `prompts/summarize_changes.md`
+  - 반영 파일: `prompts/tasks/start_project.md`, `prompts/tasks/design_review.md`, `prompts/tasks/implement_feature.md`, `prompts/tasks/verify_code.md`, `prompts/tasks/summarize_changes.md`
   - 상태: 완료
 
 - [x] 플레이북 전체 문서 검증용 프롬프트 추가
-  - 반영 파일: `prompts/validate_playbook.md`, `progress.md`
+  - 반영 파일: `prompts/tasks/validate_playbook.md`, `progress.md`
   - 상태: 완료
 
 - [x] `core/` 문서를 단일 개발 가이드로 통합
