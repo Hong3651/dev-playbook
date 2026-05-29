@@ -33,11 +33,12 @@
   - 반영 파일: `README.md`
   - 상태: 예정
 
-- [ ] 프로젝트 타입별 사용 기준 정리
-  - 반영 파일: `profiles/automation.md`, `profiles/robot_infra.md`, `profiles/web_service.md`
-  - 상태: 예정
-
 ## 완료
+
+- [x] 프로젝트 타입별 사용 기준 정리
+  - 반영 파일: `profiles/automation.md`, `profiles/robot_infra.md`, `profiles/web_service.md`
+  - 상태: 완료
+
 
 - [x] 템플릿 문서가 실제로 복사해서 쓰기 좋은지 점검
   - 반영 파일: `templates/project_kickoff.md`, `templates/product.md`, `templates/architecture.md`, `templates/plan.md`, `templates/codebase_overview.md`

@@ -5,6 +5,24 @@
 이 프로필은 로봇 제어만 뜻하지 않는다.
 모델 실행, robot client/server, 데이터 흐름, latency, safety, config, checkpoint 관리까지 포함한다.
 
+## 선택 기준
+
+이 프로필을 고르는 경우:
+
+- 소프트웨어 출력이 실제 장비 움직임이나 실험 실행에 영향을 준다.
+- latency, timeout, control loop, safety가 결과에 직접 영향을 준다.
+- 모델 checkpoint, config, action, observation 형식이 맞지 않으면 위험하다.
+- simulation과 실제 장비 사이의 차이를 확인해야 한다.
+
+이 프로필만으로 부족한 경우:
+
+- 단순 로그 정리나 데이터 변환이면 `automation.md` 기준으로 작게 시작한다.
+- 장비 상태를 웹에서 조회하거나 조작한다면 `web_service.md`의 인증, 권한, API 기준도 함께 적용한다.
+- 모델 학습 자체가 중심이면 학습 데이터, 재현성, checkpoint 관리 기준을 별도로 문서화한다.
+
+애매한 경우에는 가장 위험한 실패 모드를 기준으로 판단한다.
+실패가 물리 동작, 장비 파손, 실험 중단, 잘못된 action 실행으로 이어질 수 있으면 이 profile을 적용한다.
+
 ## 적용 범위
 
 - 로봇 제어 코드
