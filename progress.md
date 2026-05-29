@@ -29,11 +29,12 @@
 
 ## 예정
 
-- [ ] README 문체를 더 실무 메모처럼 줄일지 검토
-  - 반영 파일: `README.md`
-  - 상태: 예정
-
 ## 완료
+
+- [x] README 문체를 더 실무 메모처럼 줄일지 검토
+  - 반영 파일: `README.md`
+  - 상태: 완료
+
 
 - [x] 프로젝트 타입별 사용 기준 정리
   - 반영 파일: `profiles/automation.md`, `profiles/robot_infra.md`, `profiles/web_service.md`
