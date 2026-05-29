@@ -37,11 +37,12 @@
   - 반영 파일: `profiles/automation.md`, `profiles/robot_infra.md`, `profiles/web_service.md`
   - 상태: 예정
 
-- [ ] 템플릿 문서가 실제로 복사해서 쓰기 좋은지 점검
-  - 반영 파일: `templates/project_kickoff.md`, `templates/product.md`, `templates/architecture.md`, `templates/plan.md`, `templates/codebase_overview.md`
-  - 상태: 예정
-
 ## 완료
+
+- [x] 템플릿 문서가 실제로 복사해서 쓰기 좋은지 점검
+  - 반영 파일: `templates/project_kickoff.md`, `templates/product.md`, `templates/architecture.md`, `templates/plan.md`, `templates/codebase_overview.md`
+  - 상태: 완료
+
 
 - [x] 일반 프롬프트와 profile 세부 기준을 분리
   - 반영 파일: `prompts/start_project.md`, `prompts/design_review.md`, `prompts/implement_feature.md`, `prompts/verify_code.md`, `prompts/summarize_changes.md`, `prompts/validate_playbook.md`
